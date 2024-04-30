@@ -1,0 +1,12 @@
+{
+  "name": "project-md-javascript",
+  "version": "1.0.0",
+  "description": "Este un sitio web con HTML, CSS y Javascript vanilla, para un trabajo obligatorio para MasterD ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

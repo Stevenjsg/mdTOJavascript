@@ -1,0 +1,115 @@
+@media screen and (max-width: 728px) {
+  .con-subtitle {
+    font-size: 64px !important;
+  }
+  .grid-container-c {
+    grid-template-columns: auto !important;
+    grid-template-rows: 1fr 1fr;
+  }
+  .order-1{
+    order: 2 !important;
+  }
+  .order-2{
+    order: 1 !important;
+  }
+}
+#map {
+  height: 500px;
+  width: 100%;
+  background: red;
+  margin-bottom: 8px;
+}
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.con-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+.misions {
+  background: var(--color-secondary);
+  padding-block: 16px;
+}
+.parrafo {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 75ch;
+  margin: 24px auto;
+}
+#Arrive {
+  max-width: 128px;
+  background: #0047a3;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  font-weight: 500;
+  transition: background 0.3s ease-in-out;
+  margin: 16px auto;
+}
+.btn-sugerencia {
+  width: 164px;
+  margin: 0 auto;
+}
+.color-secondary {
+  color: var(--color-secondary);
+}
+#Arrive:hover {
+  background: var(--color-secondary);
+}
+.grid-container-c {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Las dos columnas tienen el mismo tamaño */
+  gap: 2px;
+}
+
+.grid-item-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Las dos columnas tienen el mismo tamaño */
+  gap: 2px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.con-subtitle {
+  font-weight: 900;
+  font-size: 84px;
+  color: var(--color-ascendent);
+  margin: 0;
+}
+.con-list {
+  list-style: none;
+}
+
+.con-list-item {
+  display: flex;
+  gap: 16px;
+  margin-block: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  align-items: center;
+}
+.con-svg {
+  stroke: var(--color-secondary);
+  transition: stroke 0.3s ease-in;
+}
+.con-svg:hover {
+  stroke: var(--color-primary);
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="../css/maps.css" >
+    <link rel="stylesheet" href="../css/global.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <!-- Google Fonts Roboto -->
+    <meta name="description" content="Explora nuestra galería de productos en GeniusWeb y descubre una amplia gama de soluciones digitales innovadoras. Desde diseño web y desarrollo de aplicaciones móviles hasta marketing digital, ofrecemos productos de alta calidad para satisfacer las necesidades de tu negocio en línea. Descubre cómo podemos ayudarte a llevar tu presencia digital al siguiente nivel con GeniusWeb.">
+
+    <title>GeniusWeb | Galeria</title>
+  </head>
+  <body>
+    <!-- todo: dynamic galley with plugin or library, jquero or somethings -->
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <h1 class="logo"><a href="../index.html">Genius</a></h1>
+      <ul class="nav-list">
+        <li class="nav-list-item active">
+          <a class="nav-link" href="galeria.html">Galeria</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="presupuesto.html">Presupuesto</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- NAVBAR -->
+    <!--Main Gallery-->
+   <main>
+    <h2 class="gallery-title">Productos</h2>
+    <div id="addGallery">
+      <div class="con-subtitle color-secondary" id="loading" style="display: none;">
+        Cargando...
+      </div>
+    </div>
+   </main>
+    <!--Main Gallery-->
+    <!-- FOOTER -->
+    <footer class="footer px-8">
+      <div class="container-xl mx-auto">
+        <div class="grid-container">
+          <div class="grid-item">
+            <ul class="con-list">
+              <li class="con-list-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-photo stroke-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M15 8h.01" />
+                  <path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12z" />
+                  <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5" />
+                  <path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3" />
+                </svg>
+                <a class="color-white" href="./views/galeria.html"> Galeria </a>
+              </li>
+              <li class="con-list-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-calculator stroke-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M4 3m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                  <path d="M8 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+                  <path d="M8 14l0 .01" />
+                  <path d="M12 14l0 .01" />
+                  <path d="M16 14l0 .01" />
+                  <path d="M8 17l0 .01" />
+                  <path d="M12 17l0 .01" />
+                  <path d="M16 17l0 .01" />
+                </svg>
+                <a class="color-white" href="./views/presupuesto.html">Presupuesto</a>
+              </li>
+              <li class="con-list-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-user stroke-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                </svg>
+                <a class="color-white" href="./views/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid-item">
+            <ul class="con-list">
+              <li class="con-list-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-map stroke-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13" />
+                  <path d="M9 4v13" />
+                  <path d="M15 7v13" />
+                </svg>
+                Ibiza, España
+              </li>
+              <li class="con-list-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-phone stroke-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg>
+                666666666
+              </li>
+              <li class="con-list-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-mail stroke-primary">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                  <path d="M3 7l9 6l9 -6" />
+                </svg>
+                geniusweb@email.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="container">
+        <h4 class="title-footer">Nuestras redes</h4>
+        <ul class="list-horizontal">
+          <li>
+            <a class="color-white transition-color duration-1s ease-in-out" href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram stroke-w-h-42">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="color-white transition-color duration-1s ease-in-out" href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x stroke-w-h-42">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="color-white transition-color duration-1s ease-in-out" href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github stroke-w-h-42">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="color-white transition-color duration-1s ease-in-out" href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok stroke-w-h-42">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <span class="the-end">Created by
+      <a href="https://stevenjsg.com" target="_blank" rel="noreferrer">Steven J. Silva Gomez</a>
+      ❤️</span>
+    <!-- FOOTER -->
+    <script src="../js/gallery.js"></script>
+  </body>
+</html>
