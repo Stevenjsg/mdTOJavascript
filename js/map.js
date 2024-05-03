@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const API_MAPS = "AIzaSyCSdaXk9dT3wbygom7W1bBHq3wyxyI39mU";
+  const API_MAPS = "YOUR_API_kEY";
   var script = document.createElement("script");
   script.src = `https://maps.googleapis.com/maps/api/js?key=${API_MAPS}&callback=initMap&region=es&lenguage=es&v=beta`;
   script.async = true;
